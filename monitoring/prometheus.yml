@@ -1,0 +1,4 @@
+scrape_configs:
+  - job_name: 'flask-api'
+    static_configs:
+      - targets: ['app_next:8082']

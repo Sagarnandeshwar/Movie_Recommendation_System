@@ -1,0 +1,34 @@
+# environment setting
+data_path: ./model
+checkpoint_dir: ./model/saved
+device: cpu
+
+# dataset config
+field_separator: "\t" 
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: tmdb_id
+RATING_FIELD: grade
+load_col:
+  inter: [user_id, tmdb_id, grade]
+
+# model config
+embedding_size: 128
+
+# Training and evaluation config
+epochs: 10
+train_batch_size: 1024
+eval_batch_size: 1024
+eval_step: 2
+learning_rate: 0.002
+neg_sampling:
+    {'uniform': 1}
+stopping_step: 10
+eval_args:
+    group_by: user
+    order: RO
+    split: {'RS': [0.8,0.1,0.1]}
+    mode: full
+metrics: ['Recall', 'MRR', 'NDCG', 'Hit', 'Precision']
+topk: 20
+valid_metric: Recall@20
+metric_decimal_place: 4

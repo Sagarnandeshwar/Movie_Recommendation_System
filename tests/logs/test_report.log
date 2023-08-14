@@ -1,0 +1,40 @@
+=======================================Testing kafka utils=======================================
+============================= test session starts ==============================
+platform linux -- Python 3.9.15, pytest-7.1.3, pluggy-1.0.0
+rootdir: /home/team-4/actions-runner/_work/Team-4/Team-4
+collected 3 items
+
+tests/data_collection/test_kafka_utils.py ...                            [100%]
+
+============================== 3 passed in 0.23s ===============================
+
+
+
+
+=======================================Testing movie utils=======================================
+============================= test session starts ==============================
+platform linux -- Python 3.9.15, pytest-7.1.3, pluggy-1.0.0
+rootdir: /home/team-4/actions-runner/_work/Team-4/Team-4
+collected 3 items
+
+tests/data_collection/test_movie_utils.py ...                            [100%]
+
+============================== 3 passed in 0.55s ===============================
+
+
+
+
+=======================================Testing rest_api utils=======================================
+============================= test session starts ==============================
+platform linux -- Python 3.9.15, pytest-7.1.3, pluggy-1.0.0
+rootdir: /home/team-4/actions-runner/_work/Team-4/Team-4
+collected 2 items
+
+tests/data_collection/test_rest_api_utils.py ..                          [100%]
+
+============================== 2 passed in 0.23s ===============================
+
+
+
+
+=======================================Coverage=======================================

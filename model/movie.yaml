@@ -1,0 +1,20 @@
+# environment setting
+data_path: ./model
+
+# dataset config
+field_separator: "\t" 
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: tmdb_id
+RATING_FIELD: grade
+load_col:
+  inter: [user_id, tmdb_id, grade]
+
+# model config
+embedding_size: 128
+
+eval_args:
+    group_by: user
+    order: RO
+    split: {'RS': [0,0,1]}
+    mode: full
+

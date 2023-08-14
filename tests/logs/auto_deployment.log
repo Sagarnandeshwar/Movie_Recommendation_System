@@ -1,0 +1,214 @@
+Already up to date.
+Begin kafka log collection
+1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%28%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%56%57%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%100%50000 logs collected in data/kafka_raw.csv
+Start action on logs
+Completed action on 50001 logs
+0 errors detected
+---
+ERROR ASSOCIATION SERIES: 760064,emma+1996
+ERROR ASSOCIATION SERIES: 4484,pulp+fiction9+1994
+ERROR ASSOCIATION SERIES: 639753,1+2013
+ERROR ASSOCIATION SERIES: 169116,rage+2009
+ERROR ASSOCIATION SERIES: 650432,2Gfw5bjdbauk
+ERROR ASSOCIATION SERIES: 233714,XtW9plKkv1lA0y
+ERROR ASSOCIATION SERIES: 763037,toky o.sora+2002
+ERROR ASSOCIATION SERIES: 426544,emma+1996
+ERROR ASSOCIATION SERIES: 252384,2MeNMjJgWzObLmkY09MccPdYAU4VEb10EyBXGS2rTPEc
+ERROR ASSOCIATION SERIES: 249193,the+boys+1962
+ERROR ASSOCIATION SERIES: 498488,savintg+private+ryan+1998
+ERROR ASSOCIATION SERIES: 500757,AJYjthshcd9IAXIjl1KbFRUtNszipgyLpTtcibtUfim37ri2VD5aEx6VYm
+ERROR ASSOCIATION SERIES: 595577,the+ lord+of+the+rings+the+fellowship+of+the+ring+2001
+ERROR ASSOCIATION SERIES: 638574,beneath+2013
+ERROR ASSOCIATION SERIES: 365434,DNtqV5f5lbb4XHLRxCAwqcDdv9socF8C05gRQNf0MOaN0eaihQJhr
+ERROR ASSOCIATION SERIES: 274053,emma+1996
+ERROR ASSOCIATION SERIES: 159687,the+horses+mouth+195 8
+ERROR ASSOCIATION SERIES: 763351,bvJ7aLYxLbP9
+ERROR ASSOCIATION SERIES: 811806,hamlet+2000
+ERROR ASSOCIATION SERIES: 466462,chaos+2005
+ERROR ASSOCIATION SERIES: 292797,fight+c lub+1999
+ERROR ASSOCIATION SERIES: 245149,JnsWC9YBivoK2TV
+ERROR ASSOCIATION SERIES: 754468,emma+1996
+ERROR ASSOCIATION SERIES: 520334,saving+private+ryaVn+1998
+ERROR ASSOCIATION SERIES: 798816,milk+2008
+ERROR ASSOCIATION SERIES: 360457,gone+gi7rl+2014
+ERROR ASSOCIATION SERIES: 501594,2Ug40WFlrjqntVtK
+ERROR ASSOCIATION SERIES: 264322,emma+1996
+ERROR ASSOCIATION SERIES: 686859,darling+2007
+ERROR ASSOCIATION SERIES: 347293,leap+year+2010
+ERROR ASSOCIATION SERIES: 670506,1+2013
+ERROR ASSOCIATION SERIES: 4896,r8SdUoByQv5mMZ3nqf582EkNIckT3hz
+ERROR ASSOCIATION SERIES: 32737,Qs3mr79kFR404k
+ERROR ASSOCIATION SERIES: 404600,jazz+2p001
+ERROR ASSOCIATION SERIES: 265282,2U4KJq57AKfir2xOfwbW
+ERROR ASSOCIATION SERIES: 799914,LpfoZC9ZNCaqyYJCGVhYiKTJRwOAinPyF3Nbe71W
+ERROR ASSOCIATION SERIES: 107232,one+flew+over+the+cuckooBs+nest+1975
+ERROR ASSOCIATION SERIES: 135079,INJRm5hJLdjM8dFEwbrZ6q
+ERROR ASSOCIATION SERIES: 247309,milk+2008
+ERROR ASSOCIATION SERIES: 278119,sIdoYopaZZWtMaI
+ERROR ASSOCIATION SERIES: 498514,the+castle+1997
+ERROR ASSOCIATION SERIES: 371898,main+prem+ki+diwani+hoon+20N03
+ERROR ASSOCIATION SERIES: 21633,the+fifth+element+1 997
+ERROR ASSOCIATION SERIES: 206772,1+2013
+ERROR ASSOCIATION SERIES: 336800,saving+priv ate+ryan+1998
+ERROR ASSOCIATION SERIES: 728273,casanova+2005
+46 errors detected
+*****System Performance*****
+Recommendation System Success Rate: 0.0%
+Recommended movie like score: 0.0%
+Average Rating of recommended movies : 0.0/5
+Average Watch time of recommended movies: 0.0 min
+Recommendation System Success proportion in user raring: 0.0 %
+Recommendation System Success proportion in user watch time: 0.0 %
+No. of people who stays: 0
+No. of people who left: 378
+
+INFO:root:{'group_by': 'user', 'order': 'RO', 'split': {'RS': [0.8, 0.1, 0.1]}, 'mode': 'full'}
+INFO:root:[1;35mmovie[0m
+[1;34mThe number of users[0m: 36121
+[1;34mAverage actions of users[0m: 1.0113233665559247
+[1;34mThe number of items[0m: 7714
+[1;34mAverage actions of items[0m: 4.736030079087255
+[1;34mThe number of inters[0m: 36529
+[1;34mThe sparsity of the dataset[0m: 99.98689013004478%
+[1;34mRemain Fields[0m: ['user_id', 'tmdb_id', 'grade']
+INFO:root:BPR(
+  (user_embedding): Embedding(36121, 128)
+  (item_embedding): Embedding(7714, 128)
+  (loss): BPRLoss()
+)[1;34m
+Trainable parameters[0m: 5610880
+INFO:root:[1;32mepoch 0 training[0m [[1;34mtime[0m: 4.08s, [1;34mtrain loss[0m: 49.2140]
+INFO:root:[1;34mSaving current[0m: ./model/saved/BPR1.0.pth
+INFO:root:[1;32mepoch 1 training[0m [[1;34mtime[0m: 3.39s, [1;34mtrain loss[0m: 47.1412]
+INFO:root:[1;34mSaving current[0m: ./model/saved/BPR1.0.pth
+INFO:root:[1;32mepoch 2 training[0m [[1;34mtime[0m: 3.14s, [1;34mtrain loss[0m: 35.5895]
+INFO:root:[1;34mSaving current[0m: ./model/saved/BPR1.0.pth
+INFO:root:Loading model structure and parameters from ./model/saved/BPR1.0.pth
+INFO:root:[1;33mbest valid [0m: None
+INFO:root:[1;33mtest result[0m: OrderedDict([('recall@20', 0.1418), ('mrr@20', 0.0465), ('ndcg@20', 0.0674), ('hit@20', 0.1418), ('precision@20', 0.0071)])
+c95678ab57f4
+c95678ab57f4
+Sending build context to Docker daemon  779.2MB
+Step 1/27 : FROM ubuntu:18.04
+ ---> 35b3f4f76a24
+Step 2/27 : RUN useradd -ms /bin/bash -g root -G sudo user1
+ ---> Using cache
+ ---> d83db43a0875
+Step 3/27 : RUN apt-get update
+ ---> Using cache
+ ---> dd202e0516bd
+Step 4/27 : RUN apt-get install python3.8 -y
+ ---> Using cache
+ ---> 8bb902e1f480
+Step 5/27 : RUN apt-get install python3-pip -y
+ ---> Using cache
+ ---> 786f1e9b48ca
+Step 6/27 : USER user1
+ ---> Using cache
+ ---> 281b1ae12b74
+Step 7/27 : WORKDIR /home/user1
+ ---> Using cache
+ ---> e90df59d0394
+Step 8/27 : COPY . .
+ ---> 3b11ea5f47a2
+Step 9/27 : RUN echo '#!/bin/bash' > api_run.sh
+ ---> Running in 723f5fe08cf7
+Removing intermediate container 723f5fe08cf7
+ ---> b26c3de11da1
+Step 10/27 : RUN echo 'pip3 install --upgrade pip' >> api_run.sh
+ ---> Running in 5d345d85c17d
+Removing intermediate container 5d345d85c17d
+ ---> c652ca7a0aed
+Step 11/27 : RUN echo 'pip3 install flask' >> api_run.sh
+ ---> Running in bd27709f7373
+Removing intermediate container bd27709f7373
+ ---> 295f43a6f381
+Step 12/27 : RUN echo 'pip3 install kafka-python' >> api_run.sh
+ ---> Running in af731cd106e0
+Removing intermediate container af731cd106e0
+ ---> b38403abcd71
+Step 13/27 : RUN echo 'pip3 install requests' >> api_run.sh
+ ---> Running in f17e3931f4af
+Removing intermediate container f17e3931f4af
+ ---> f2617ccf0370
+Step 14/27 : RUN echo 'pip3 install pandas' >> api_run.sh
+ ---> Running in f1bdac97024d
+Removing intermediate container f1bdac97024d
+ ---> 8f67e429b6cf
+Step 15/27 : RUN echo 'pip3 install tqdm' >> api_run.sh
+ ---> Running in 88bee288ff29
+Removing intermediate container 88bee288ff29
+ ---> b8e11f63bc4a
+Step 16/27 : RUN echo 'pip3 install scipy' >> api_run.sh
+ ---> Running in f0e31d2a6b84
+Removing intermediate container f0e31d2a6b84
+ ---> d4eeab3c0a64
+Step 17/27 : RUN echo "pip3 install colorlog" >> api_run.sh
+ ---> Running in 3fe5b0a52969
+Removing intermediate container 3fe5b0a52969
+ ---> 6940954bc587
+Step 18/27 : RUN echo "pip3 install scikit-learn" >> api_run.sh
+ ---> Running in 20771d729648
+Removing intermediate container 20771d729648
+ ---> 709693443142
+Step 19/27 : RUN echo "pip3 install torch --no-cache-dir" >> api_run.sh
+ ---> Running in 72d00a6e14cf
+Removing intermediate container 72d00a6e14cf
+ ---> 9969fc6f812a
+Step 20/27 : RUN echo "pip3 install pyyaml==5.1.0" >> api_run.sh
+ ---> Running in 6f35254ca501
+Removing intermediate container 6f35254ca501
+ ---> 7d0a76633ab9
+Step 21/27 : RUN echo "pip3 install colorama==0.4.4" >> api_run.sh
+ ---> Running in ff28766ec672
+Removing intermediate container ff28766ec672
+ ---> 7cac8ac7d0e4
+Step 22/27 : RUN echo "pip3 install tensorboard" >> api_run.sh
+ ---> Running in aac96806e276
+Removing intermediate container aac96806e276
+ ---> e6e132f03d66
+Step 23/27 : RUN echo "pip3 install prometheus-flask-exporter" >> api_run.sh
+ ---> Running in 85580d67e26e
+Removing intermediate container 85580d67e26e
+ ---> ea593369f5be
+Step 24/27 : RUN echo 'python3 api.py' >> api_run.sh
+ ---> Running in 1b3b85834ce3
+Removing intermediate container 1b3b85834ce3
+ ---> 248dfa7ec52f
+Step 25/27 : RUN chmod +x api_run.sh
+ ---> Running in d063acfcaeb4
+Removing intermediate container d063acfcaeb4
+ ---> a60d97923750
+Step 26/27 : EXPOSE 8082
+ ---> Running in 643d7a828043
+Removing intermediate container 643d7a828043
+ ---> 572f554ed23e
+Step 27/27 : CMD /home/user1/api_run.sh
+ ---> Running in d3c8d023889c
+Removing intermediate container d3c8d023889c
+ ---> 296dc624c57c
+Successfully built 296dc624c57c
+Successfully tagged movierecc4_9093:latest
+fc9d7e6a7507665f2bea23dc49393ad428820d15187b46aeca28a25050f8a53e
+Already up to date.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   data/association.csv
+	modified:   data/model_performance.json
+	modified:   data/movie_store.json
+	modified:   data/rate.csv
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	data/1669436033.log
+	data/1669436873.log
+	data/kafka_raw.csv
+	data/user_store.json
+	data/watch.csv
+	tests/logs/auto_deployment.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
